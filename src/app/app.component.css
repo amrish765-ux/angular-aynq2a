@@ -1,0 +1,27 @@
+.add-note-section {
+  margin-left: 25%;
+  width: 50%;
+}
+
+.mat-input {
+  width: 100%;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
+
+.notes-section {
+  width: 50%;
+  margin-left: 25%;
+  align-items: center;
+}
+
+mat-card:nth-child(even) {
+  margin-bottom: 20px;
+  text-align: center;
+  background-image: linear-gradient(rgb(172, 217, 238), rgb(197, 194, 216));
+}
+mat-card:nth-child(odd) {
+  text-align: center;
+  margin-bottom: 20px;
+  background-image: linear-gradient(rgb(63, 172, 130), rgb(197, 194, 216));
+}
